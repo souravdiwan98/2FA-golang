@@ -17,7 +17,7 @@ type User struct {
 
 // Simple in-memory "database" for demonstration purposes
 var users = map[string]*User{
-	"john": {Username: "sourav", Password: "password", Secret: ""},
+	"sourav": {Username: "sourav", Password: "password", Secret: ""},
 }
 
 var templates = template.Must(template.ParseGlob("templates/*.html"))
